@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <title>Mobile Product Page</title>
+</head>
+
+<body>
+  <!-- Global Container -->
+  <div class="m-0 flex flex-row flex-wrap items-center justify-center w-screen h-screen bg-gray-100">
+
+    <!-- Header / Back / Favourite -->
+    <div class="flex justify-between items-center w-screen p-7">
+      <!-- Back SVG -->
+      <div><img src="./img/arrow-left.svg" alt=""></div>
+
+      <!-- Page Title -->
+      <div>
+        <h1 class="font-roboto text-zinc-400 text-lg font-light">Detail Product</h1>
+      </div>
+
+      <!-- Favourite SVG -->
+      <div><img src="./img/heart.svg" alt=""></div>
+    </div>
+
+    <!-- Main Gallery -->
+    <div class="w-screen">
+      <img src="./img/img-gallery-main.png" alt="">
+    </div>
+
+    <!-- Title / Description / Price / Gallery / Buy Button -->
+    <div class="flex md:flex-row flex-wrap items-center bg-white w-screen h-1/3 p-7 rounded-t-[32px] gap-3" style="margin-bottom: 0; padding-bottom: 16px;">
+
+      <!-- Product Title / Price -->
+      <div class="flex flex-row w-screen h-auto justify-center items-start">
+        <div class="w-2/4">
+          <h1 class="font-fjalla text-zinc-900 text-2xl ">Nike Air Jordan<br>Tailwind</h1>
+          <h2 class="font-fjalla text-zinc-400 text-lg" style="margin-top: 8px;">Basketball Shoes</h2>
+        </div>
+        <div class="flex justify-end place-content-start w-2/4">
+          <span class="px-10 py-5 font-fjalla text-white text-xl bg-orange-600 rounded-2xl">$ 28.50</span>
+        </div>
+      </div>
+
+      <!-- Product Description -->
+      <div class="font-roboto text-xs text-gray-300 text-justify" style="margin-top: 8px;">
+        <span>Luka's step-back shot is the muse for the Nike Jordan Tailwind separate, a lightweight high-top shoe that designed to help you take controle on the court.</span>
+      </div>
+
+      <!-- Image Gallery -->
+      <div class="flex flex-row" style="margin-bottom: 16px;">
+        <div><img src="./img/img-gallery-1.png" alt="" class="w-16"></div>
+        <div><img src="./img/img-gallery-2.png" alt="" class="w-16"></div>
+        <div><img src="./img/img-gallery-3.png" alt="" class="w-16"></div>
+        <div><img src="./img/img-gallery-4.png" alt="" class="w-16"></div>
+      </div>
+
+      <div class="w-full">
+        <hr class="stroke-slate-900">
+      </div>
+
+      <!-- QTD / Buy Button -->
+      <div class="bg-white rounded-3xl container flex flex-col justify-between items-center w-full h-auto">
+        <!-- QTD -->
+        <div class="flex flex-row flex-wrap justify-between items-center w-screen h-1/3 p-7 rounded-t-[32px]" style=" background-color: rgb(255, 255, 255); margin-top: 48px; margin: 4px;">
+
+          <div class="flex flex-row items-center justify-between h-7 rounded-full" style="padding: 10px; background-color: #e4e4e7; border-radius: 100px; width: 40%; 
+          ">
+            <img src="./img/minus.svg" alt="" class="h-3" style="background-color: #18181b
+            ; border-radius: 100%; padding: 8px;">
+            <h1 class="font-fjalla text-lg">0</h1>
+            <img src="./img/plus.svg" alt="" class="h-3" style="background-color: #18181b; border-radius: 100%; padding: 8px;">
+          </div>
+
+          <div class="flex justify-end place-content-start w-3/4">
+            <span class="px-10 py-4 m-2 font-fjalla text-white text-xl rounded-2xl" style="background-color: #18181b;">Add to Cart</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
